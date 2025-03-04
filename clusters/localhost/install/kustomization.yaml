@@ -9,3 +9,5 @@ labels:
 
 resources:
   - ../../../apps/wac-ambulance-ufe
+components:
+  - ../../../components/version-developers

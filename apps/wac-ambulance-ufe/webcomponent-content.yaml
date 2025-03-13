@@ -4,7 +4,10 @@ metadata:
   name: wac-ambulance-ufe-content
 spec:
   microFrontend: wac-ambulance-ufe
-  element: wac-ambulance-wl-list
+  element: wac-ambulance-wl-app
+  attributes:
+    - name: base-path
+      value: /wac-ambulance-wl/
   displayRules:
     - allOf:
         - context-name: main-content

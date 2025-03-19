@@ -2,7 +2,7 @@ apiVersion: image.toolkit.fluxcd.io/v1beta2
 kind: ImagePolicy
 metadata:
   name: ambulance-ufe
-  namespace: xdudakm-hospital
+  namespace: wac-hospital
 spec:
   imageRepositoryRef:
     name: ambulance-ufe # referuje ImageRepository z predchádzajúceho kroku

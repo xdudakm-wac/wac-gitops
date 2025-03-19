@@ -9,5 +9,6 @@ labels:
 
 resources:
   - ../../../apps/xdudakm-ambulance-ufe
+
 components:
   - ../../../components/version-developers

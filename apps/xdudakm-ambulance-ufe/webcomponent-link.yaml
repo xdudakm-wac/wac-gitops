@@ -7,9 +7,9 @@ spec:
   element: polyfea-md-app # element, ktorý bude vložený na stránku
   attributes: # atribúty elementu polyfea-md-app
     - name: headline
-      value: Zoznam čakajúcich xdudakm
+      value: Zoznam čakajúcich
     - name: short-headline
-      value: Zoznam čakajúcich xdudakm
+      value: Zoznam čakajúcich
     - name: supporting-text
       value: |
         Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii

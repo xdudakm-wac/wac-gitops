@@ -1,7 +1,7 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
-namespace: xdudakm-hospital
+namespace: wac-hospital
 
 labels:
   - pairs:
@@ -11,7 +11,7 @@ labels:
     includeTemplates: true
 
 resources:
-  - ../../../apps/xdudakm-ambulance-ufe
+  - ../../../apps/wac-ambulance-ufe
 
 
 components:

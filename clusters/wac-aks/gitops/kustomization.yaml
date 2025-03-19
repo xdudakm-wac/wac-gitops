@@ -6,7 +6,7 @@ labels:
       app.kubernetes.io/part-of: xdudakm-hospital
       app.kubernetes.io/name: xdudakm-ambulance-wl
 
-namespace: xdudakm-hospital
+namespace: wac-hospital
 
 resources:
   - cd.kustomization.yaml

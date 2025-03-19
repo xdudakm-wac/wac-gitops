@@ -3,7 +3,7 @@ kind: Kustomization
 
 labels:
   - pairs:
-      app.kubernetes.io/part-of: xdudakm-hospital
+      app.kubernetes.io/part-of: wac-hospital
 
 namespace: wac-hospital
 

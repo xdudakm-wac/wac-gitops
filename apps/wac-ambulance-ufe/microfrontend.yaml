@@ -4,5 +4,5 @@ metadata:
   name: xdudakm-ambulance-ufe
 spec:
   frontendClass: md-shell # default obsiahnutý v základe polyfea md-shell
-  service: http://xdudakm-ambulance-ufe.xdudakm-hospital # referencia na službu odkiaľ sa má načítať modul
+  service: http://wac-ambulance-ufe.wac-hospital # referencia na službu odkiaľ sa má načítať modul
   modulePath: /build/xdudakm-project.esm.js # cesta v rámci služby kde sa modul nachádza

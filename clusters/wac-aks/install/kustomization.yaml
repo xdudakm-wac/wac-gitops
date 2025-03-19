@@ -5,7 +5,7 @@ namespace: wac-hospital
 
 labels:
   - pairs:
-      app.kubernetes.io/part-of: xdudakm-hospital
+      app.kubernetes.io/part-of: wac-hospital
       app.kubernetes.io/name: xdudakm-ambulance-wl
     includeSelectors: true
     includeTemplates: true

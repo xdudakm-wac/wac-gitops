@@ -8,6 +8,6 @@ labels:
       app.kubernetes.io/part-of: wac-hospital
 
 resources:
-  - ../../../apps/wac-ambulance-ufe
+  - ../../../apps/xdudakm-ambulance-ufe
 components:
   - ../../../components/version-developers

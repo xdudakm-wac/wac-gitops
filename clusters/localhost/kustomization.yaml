@@ -3,7 +3,7 @@ kind: Kustomization
 
 labels:
   - pairs:
-      app.kubernetes.io/name: wac-hospital
+      app.kubernetes.io/name: xdudakm-hospital
       app.kubernetes.io/instance: development
       app.kubernetes.io/version: "0.1"
 

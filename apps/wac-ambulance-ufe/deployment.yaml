@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: wac-ambulance-ufe-deployment      # meno deployment-u od ktorého sa odvádza meno podu
+  name: xdudakm-ambulance-ufe-deployment      # meno deployment-u od ktorého sa odvádza meno podu
 spec:
   replicas: 2
   selector:
     matchLabels:
-      pod: wac-ambulance-ufe-label    # tento riadok je len označenie štítku
+      pod: xdudakm-ambulance-ufe-label    # tento riadok je len označenie štítku
         # key-value pair pod=ambualnce ufe
       # určený pre výber podov s rovnakým štítkom
   template:                    # šablóna pre vytvorenie replík podov
     metadata:
       labels:
-        pod: wac-ambulance-ufe-label    # štítky podu
+        pod: xdudakm-ambulance-ufe-label    # štítky podu
     spec:
       containers:
         - name: ambulance-ufe-container # meno kontaineru - v pod-e ich môže byť viac

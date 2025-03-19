@@ -2,5 +2,5 @@ apiVersion: kustomize.config.k8s.io/v1alpha1
 kind: Component
 images:
   - name: xdudakm/ambulance-ufe
-    newName: xdudakm/ambulance-ufe # {"$imagepolicy":  "wac-hospital:ambulance-ufe:name"}
-    newTag: main.20250227.0611 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
+    newName: xdudakm/ambulance-ufe # {"$imagepolicy":  "xdudakm-hospital:ambulance-ufe:name"}
+    newTag: main.20250227.0611 # {"$imagepolicy": "xdudakm-hospital:ambulance-ufe:tag"}

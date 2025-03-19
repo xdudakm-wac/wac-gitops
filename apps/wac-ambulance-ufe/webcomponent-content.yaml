@@ -1,13 +1,13 @@
 apiVersion: polyfea.github.io/v1alpha1
 kind: WebComponent
 metadata:
-  name: wac-ambulance-ufe-content
+  name: xdudakm-ambulance-ufe-content
 spec:
-  microFrontend: wac-ambulance-ufe
-  element: wac-ambulance-wl-app
+  microFrontend: xdudakm-ambulance-ufe
+  element: xdudakm-ambulance-wl-app
   attributes:
     - name: base-path
-      value: /wac-ambulance-wl/
+      value: /xdudakm-ambulance-wl/
     - name: api-base
       value: http://localhost:5000/api
     - name: ambulance-id
@@ -15,4 +15,4 @@ spec:
   displayRules:
     - allOf:
         - context-name: main-content
-        - path: "^(\\.?/)?wac-ambulance-wl(/.*)?$"
+        - path: "^(\\.?/)?xdudakm-ambulance-wl(/.*)?$"

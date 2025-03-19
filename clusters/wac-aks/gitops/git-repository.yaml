@@ -1,8 +1,8 @@
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
-  name: wac-gitops-repo # v spoločnom klastri je nasadených viacero takýchto objektov
-  namespace: wac-hospital
+  name: xdudakm-gitops-repo # v spoločnom klastri je nasadených viacero takýchto objektov
+  namespace: xdudakm-hospital
 spec:
   interval: 1m0s
   ref:
@@ -12,4 +12,4 @@ spec:
 
 # ak používate privátny repozitár nezabudnite doplniť autentifikačné údaje
 # secretRef:
-#    name: wac-repository-pat
+#    name: xdudakm-repository-pat

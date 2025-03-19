@@ -10,4 +10,4 @@ resources:
 
 labels:
   - pairs:
-      app.kubernetes.io/component: wac-ambulance-ufe
+      app.kubernetes.io/component: xdudakm-ambulance-ufe

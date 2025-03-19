@@ -7,9 +7,7 @@ spec:
   interval: 1m0s
   ref:
     branch: main
+  secretRef:
+    name: repository-pat
   timeout: 1m0s
   url: https://github.com/xdudakm/wac-gitops
-
-# ak používate privátny repozitár nezabudnite doplniť autentifikačné údaje
-# secretRef:
-#    name: xdudakm-repository-pat

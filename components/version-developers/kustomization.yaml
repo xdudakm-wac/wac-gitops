@@ -4,3 +4,6 @@ images:
   - name: xdudakm/ambulance-ufe
     newName: xdudakm/ambulance-ufe # {"$imagepolicy":  "wac-hospital:ambulance-ufe:name"}
     newTag: main.20250318.1207 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
+  - name: xdudakm/ambulance-wl-webapi
+    newName: xdudakm/ambulance-wl-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
+    newTag: main # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}

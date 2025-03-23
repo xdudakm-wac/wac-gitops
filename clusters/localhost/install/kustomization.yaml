@@ -9,6 +9,11 @@ labels:
 
 resources:
   - ../../../apps/xdudakm-ambulance-ufe
+  - ../../../apps/xdudakm-ambulance-webapi
+
+#patches:
+#  - path: ./patches/ambulance-webapi.service.yaml
 
 components:
   - ../../../components/version-developers
+  - https://github.com/xdudakm-wac/wac-api//deployments/kustomize/components/mongodb

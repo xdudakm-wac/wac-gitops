@@ -1,7 +1,7 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: xdudakm-ambulance-webapi
+  name: xdudakm-wac-ambulance-webapi
 spec:
   type: NodePort
   ports:

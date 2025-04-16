@@ -3,4 +3,7 @@ kind: Component
 images:
   - name: xdudakm/ambulance-ufe
     newName: xdudakm/ambulance-ufe
-    newTag: 1.0.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+    newTag: 1.1.1
+  - name: xdudakm/ambulance-wl-webapi
+    newName: xdudakm/ambulance-wl-webapi
+    newTag: 1.1.1

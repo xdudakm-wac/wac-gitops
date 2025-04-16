@@ -13,7 +13,7 @@ resources:
 
 patches:
   - path: ./patches/ambulance-webapi.service.yaml
-  - path: ./patches/polyfea-fea.microfrontendclass.yaml
+#  - path: ./patches/polyfea-fea.microfrontendclass.yaml
 
 components:
   - ../../../components/version-developers

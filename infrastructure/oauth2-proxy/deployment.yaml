@@ -46,7 +46,7 @@ spec:
 
             - name: OAUTH2_PROXY_REDIRECT_URL
               # must match redirection registered at GitHub Oauth2 Application form
-              value: https://wac-hospital.loc:31350/authn/callback
+              value: http://wac-hospital.loc:31350/authn/callback
 
             - name: OAUTH2_PROXY_COOKIE_SECRET
               valueFrom:

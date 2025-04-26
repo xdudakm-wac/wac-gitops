@@ -7,16 +7,5 @@ labels:
       app.kubernetes.io/instance: development
       app.kubernetes.io/version: "0.1"
 
-secretGenerator:
-  - name: repository-pat
-    type: Opaque
-    envs:
-      - params/repository-pat.env
-    options:
-      disableNameSuffixHash: true
-  - name: mongodb-auth
-    type: Opaque
-    envs:
-      - params/mongodb-auth.env
-    options:
-      disableNameSuffixHash: true
+resources:
+  - gitops
